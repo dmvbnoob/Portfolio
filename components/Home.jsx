@@ -1,10 +1,40 @@
+import Flower from '../src/assets/flower.svg';
+import Star from '../src/assets/star.svg';
+import { Link } from 'react-router-dom';
+
 export default function Home()
 {
     return (
-        <div className="grid-cols-2 justify-between gap-12 items-end">
-            <h1>
-                Hello.
-            </h1>
-        </div>
+        <>
+            <div className="flex flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 h-[80vh]">
+                <div className='flex flex-col w-1/2 justify-end items-start h-full'>
+                    <h1>
+                        hello.
+                    </h1>
+                    <h2>
+                        My name is Donna Brar, and I am a software developer and UI/UX Designer.
+                    </h2>
+                    <h2>
+                        My expertise is in creating branded experiences by creating high-fidelity wireframes in Figma, and translating them to functioning websites & apps.
+                    </h2>
+                    <div className="flex flex-row gap-4 justify-start mt-4">
+                        <Link to="/about">
+                            <button className='btn-primary'>
+                                About Me
+                            </button>
+                        </Link>
+                        <Link to="/contact">
+                            <button className='btn-secondary'>
+                                Let's Chat
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+                <div className='flex flex-col w-1/2 justify-center items-center h-full relative'>
+                    <img src={Flower} alt="Flower" className='h-80 transition-all ease-in-out duration-[6000ms] hover:rotate-90 absolute top-24 left-5'/>
+                    <img src={Star} alt="Star" className='h-56 transition-all ease-in-out duration-[6000ms] hover:-rotate-90 absolute bottom-12 right-6'/>
+                </div>
+            </div>
+        </>
     );
 }
