@@ -31,8 +31,8 @@ export default function Home()
                     </div>
                 </div>
                 <div className='flex flex-col w-1/2 justify-center items-center h-full relative'>
-                    <img src={Flower} alt="Flower" className='h-80 transition-all ease-in-out duration-[6000ms] hover:rotate-90 absolute top-24 left-5'/>
-                    <img src={Star} alt="Star" className='h-56 transition-all ease-in-out duration-[6000ms] hover:-rotate-90 absolute bottom-12 right-6'/>
+                    <img src={Flower} alt="Flower" className='h-80 transition-all ease-in-out duration-[6000ms] -rotate-12 hover:rotate-90 absolute top-24 left-5'/>
+                    <img src={Star} alt="Star" className='h-56 transition-all ease-in-out duration-[6000ms] rotate-6 hover:-rotate-90 absolute bottom-12 right-6'/>
                 </div>
             </div>
         </>
