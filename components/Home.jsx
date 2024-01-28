@@ -1,4 +1,10 @@
 export default function Home()
 {
-    return <p className='text-xl text-red-500'>Hello World!</p>
+    return (
+        <div className="grid-cols-2 justify-between gap-12 items-end">
+            <h1>
+                Hello.
+            </h1>
+        </div>
+    );
 }
