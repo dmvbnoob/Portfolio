@@ -1,4 +1,4 @@
 export default function Home()
 {
-    return <p>Hello World!</p>
+    return <p className='text-xl text-red-500'>Hello World!</p>
 }
