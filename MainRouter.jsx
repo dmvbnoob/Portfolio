@@ -3,8 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import About from './src/about'
 import Contact from './src/contact'
-import Education from './src/education'
-import Project from './src/project'
+import Education from './src/services'
+import Project from './src/projects'
 import Layout from './components/layout'
 
 const MainRouter = () =>
@@ -14,8 +14,8 @@ const MainRouter = () =>
         <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
-            <Route exact path="/education" element={<Education />} />
-            <Route exact path="/project" element={<Project />} />
+            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/projects" element={<Project />} />
             <Route exact path="/contact" element={<Contact />} />
         </Routes>
     </div>)
