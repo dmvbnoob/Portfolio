@@ -6,7 +6,7 @@ export default function Home()
 {
     return (
         <>
-            <div className="flex flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 h-[80vh]">
+            <div className="flex flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 h-[85vh]">
                 <div className='flex flex-col w-1/2 justify-end items-start h-full'>
                     <h1>
                         hello.
@@ -15,7 +15,7 @@ export default function Home()
                         My name is Donna Brar, and I am a software developer and UI/UX Designer.
                     </h2>
                     <h2>
-                        My expertise is in creating branded experiences by creating high-fidelity wireframes in Figma, and translating them to functioning websites & apps.
+                        My expertise is in creating branded experiences by creating high-fidelity wireframes in Figma, and translating them into engaging websites & apps.
                     </h2>
                     <div className="flex flex-row gap-4 justify-start mt-4">
                         <Link to="/about">
