@@ -38,7 +38,7 @@ January 28, 2024
         @apply relative;
     }
     section > img {
-        @apply absolute top-0 w-[120%] h-[120%] object-fill;
+        @apply absolute top-0 w-[120%] h-[120%] object-cover;
     }
   }
 
