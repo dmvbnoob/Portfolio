@@ -14,7 +14,7 @@ export default function Projects()
     return (
         <>
             <div className="flex flex-col max-w-screen-2xl mx-auto p-6 pb-16">
-                <div className='flex flex-row justify-between items-end mb-12'>
+                <div className='flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12'>
                     <h1>
                         projects.
                     </h1>
@@ -22,9 +22,9 @@ export default function Projects()
                         View More projects
                     </a>
                 </div>
-                <div className="grid grid-cols-3 gap-6 w-full p-6">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full lg:p-6">
                     <div className="card">
-                        <img src={Proj1} alt="Project 1" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Proj1} alt="Project 1" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Nyla - PDP Hero Templates
                         </h2>
@@ -42,7 +42,7 @@ export default function Projects()
                         </a>
                     </div>
                     <div className="card">
-                        <img src={Proj2} alt="Project 2" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Proj2} alt="Project 2" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Nyla - Accordion Templates
                         </h2>
@@ -60,7 +60,7 @@ export default function Projects()
                         </a>
                     </div>
                     <div className="card">
-                        <img src={Proj3} alt="Project 3" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Proj3} alt="Project 3" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Nyla - Anna Sheffield Ecommerce Website
                         </h2>

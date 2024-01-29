@@ -14,8 +14,8 @@ export default function  About()
 {
     return (
         <>
-            <div className="flex flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 h-[85vh]">
-                <div className='flex flex-col w-1/2 justify-end items-start h-full'>
+            <div className="flex flex-col lg:flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 lg:h-[85vh] pb-16 lg:pb-0">
+                <div className='flex flex-col w-full lg:w-1/2 justify-end items-start h-full order-2 lg:order-1'>
                     <h1>
                         about me.
                     </h1>
@@ -28,7 +28,7 @@ export default function  About()
                     <p>
                         As a UI/UX designer, I have experience in different areas such as wireframing and prototyping, research, documentation, and project management.
                     </p>
-                    <div className="flex flex-row gap-4 justify-start mt-4">
+                    <div className="flex flex-col lg:flex-row gap-4 justify-start mt-4">
                         <a className='btn-primary' href={CV} target='_blank'>
                             Download CV
                         </a>
@@ -39,10 +39,10 @@ export default function  About()
                         </Link>
                     </div>
                 </div>
-                <div className='flex flex-col w-1/2 justify-center items-center h-full'>
+                <div className='flex flex-col w-full lg:w-1/2 justify-center items-center h-full relative order-1 lg:order-2'>
                     <div className='relative'>
-                        <img src={HeadShot} alt="Donna Brar" className='h-[400px] rounded-3xl shadow-md'/>
-                        <img src={Heart} alt="Heart" className='h-32 transition-all ease-in-out duration-[6000ms] rotate-12 hover:-rotate-90 absolute -bottom-16 -right-16'/>
+                        <img src={HeadShot} alt="Donna Brar" className='lg:h-[400px] rounded-3xl shadow-md aspect-square'/>
+                        <img src={Heart} alt="Heart" className='h-20 lg:h-32 transition-all ease-in-out duration-[6000ms] rotate-12 hover:-rotate-90 absolute -bottom-4 -right-4 lg:-bottom-16 lg:-right-16'/>
                     </div>
                 </div>
             </div>

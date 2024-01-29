@@ -15,7 +15,7 @@ export default function Services()
     return (
         <>
             <div className="flex flex-col max-w-screen-2xl mx-auto p-6 pb-16">
-                <div className='flex flex-row justify-between items-end mb-12'>
+                <div className='flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12'>
                     <h1>
                         services.
                     </h1>
@@ -25,9 +25,9 @@ export default function Services()
                         </button>
                     </Link>
                 </div>
-                <div className="grid grid-cols-3 gap-6 w-full p-6">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full lg:p-6">
                     <div className="card">
-                        <img src={Serv1} alt="Web Development" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Serv1} alt="Web Development" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Web Design & Development
                         </h2>
@@ -36,7 +36,7 @@ export default function Services()
                         </p>
                     </div>
                     <div className="card">
-                        <img src={Serv2} alt="Mobile Development" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Serv2} alt="Mobile Development" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Mobile App Design & Development
                         </h2>
@@ -45,7 +45,7 @@ export default function Services()
                         </p>
                     </div>
                     <div className="card">
-                        <img src={Serv3} alt="Web Development" className='w-full h-auto aspect-video rounded-2xl mb-12'/>
+                        <img src={Serv3} alt="Web Development" className='w-full h-auto aspect-video rounded-2xl mb-6 lg:mb-12'/>
                         <h2>
                             Shopify Ecommerce Store Design & Development
                         </h2>

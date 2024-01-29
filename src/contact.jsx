@@ -15,8 +15,8 @@ export default function Contact()
 {
     return (
         <>
-            <div className="flex flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 h-[85vh]">
-                <div className='flex flex-col w-1/2 justify-end items-start h-full'>
+            <div className="flex flex-col lg:flex-row justify-between gap-12 items-end max-w-screen-2xl mx-auto p-6 lg:h-[85vh] pb-16 lg:pb-0">
+                <div className='flex flex-col w-full lg:w-1/2 justify-end items-start h-full'>
                     <h1>
                         say hi!
                     </h1>
@@ -48,7 +48,7 @@ export default function Contact()
                         </p>
                     </a>
                 </div>
-                <div className='flex flex-col w-1/2 justify-end items-start h-full px-12'>
+                <div className='flex flex-col w-full lg:w-1/2 justify-end items-start h-full px-12'>
                     <ContactForm />
                 </div>
             </div>
