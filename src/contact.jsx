@@ -48,7 +48,7 @@ export default function Contact()
                         </p>
                     </a>
                 </div>
-                <div className='flex flex-col w-full lg:w-1/2 justify-end items-start h-full px-12'>
+                <div className='flex flex-col w-full lg:w-1/2 justify-end items-start h-full lg:px-12'>
                     <ContactForm />
                 </div>
             </div>
