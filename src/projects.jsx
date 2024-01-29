@@ -35,7 +35,7 @@ export default function Projects()
                             The product detail page of an e-commerce website is the most important page on the website because this is where customers decide whether they should purchase an item or not. Product pages help answer any questions the customer might have about the product, enables comparison between different items, affirms authenticity of the product through images & reviews, and facilitates the actual purchasing process.
                         </p>
                         <p>
-                            The goal of this project was to be able to create a versatile set of basic templates that our clients can choose from and use as a foundation for their PDP Hero designs.
+                            The goal of this project was to create a versatile set of basic templates that our clients can choose from and use as a foundation for their PDP Hero designs.
                         </p>
                         <a href="https://donnabrar.notion.site/Nyla-PDP-Hero-6d455a6b48b14abba94d7f0a8e3919e0" target="_blank" className='font-bold text-blue-600'>
                             read more

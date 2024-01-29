@@ -19,7 +19,7 @@ export default function Home()
                         hello.
                     </h1>
                     <h2>
-                        My name is Donna Brar, and I am a software developer and UI/UX Designer.
+                        My name is Donna Brar, and I am a software developer and UI/UX designer.
                     </h2>
                     <h2>
                         My expertise is in creating branded experiences by creating high-fidelity wireframes in Figma, and translating them into engaging websites & apps.
