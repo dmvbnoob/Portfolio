@@ -43,4 +43,7 @@ January 28, 2024
     .card {
         @apply rounded-3xl bg-gradient-to-b from-blue-50 to-white shadow-md px-6 py-10 h-full justify-start items-start;
     }
+    .input {
+        @apply w-full text-sm text-blue-700 p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all ease-in-out duration-300;
+    }
   }
