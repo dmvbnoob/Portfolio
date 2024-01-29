@@ -15,7 +15,25 @@ January 28, 2024
     <title>Donna Brar | Portfolio</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <section>
+      <img src="/src/assets/parallaxBG.png" data-speed="1" class="layer">
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+    </section>
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+        function parallax(e)
+        {
+          document.querySelectorAll('.layer').forEach(layer => 
+          {
+            const speed = layer.getAttribute('data-speed')
+
+            const x = (window.innerWidth - e.pageX * speed)/100
+            const y = (window.innerHeight - e.pageY * speed)/100
+
+            layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
+          })
+        }
+    </script>
   </body>
 </html>

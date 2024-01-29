@@ -39,7 +39,7 @@ export default function Home()
                 </div>
                 <div className='flex flex-col w-full lg:w-1/2 justify-center items-center h-full relative order-1 lg:order-2'>
                     <img src={Flower} alt="Flower" className='h-48 pr-24 lg:pr-0 lg:h-80 transition-all ease-in-out duration-[6000ms] -rotate-12 hover:rotate-90 relative lg:absolute top-0 lg:top-24 left-2 lg:left-5'/>
-                    <img src={Star} alt="Star" className='h-24 pl-20 lg:pl-0 lg:h-56 transition-all ease-in-out duration-[6000ms] rotate-6 hover:-rotate-90 relative lg:absolute bottom-0 lg:bottom-12 right-0 lg:right-6'/>
+                    <img src={Star} alt="Star" className='h-24 pl-32 lg:pl-0 lg:h-56 transition-all ease-in-out duration-[6000ms] rotate-6 hover:-rotate-90 relative lg:absolute bottom-0 lg:bottom-12 right-0 lg:right-6'/>
                 </div>
             </div>
         </>

@@ -31,6 +31,15 @@ January 28, 2024
     a:hover {
         @apply no-underline text-blue-600;
     }
+    section {
+        @apply relative w-full h-full overflow-hidden flex justify-center items-center;
+    }
+    section div {
+        @apply relative;
+    }
+    section > img {
+        @apply absolute top-0 w-[120%] h-[120%] object-fill;
+    }
   }
 
   @layer components {
