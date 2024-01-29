@@ -41,7 +41,7 @@ export default function  About()
                 </div>
                 <div className='flex flex-col w-1/2 justify-center items-center h-full'>
                     <div className='relative'>
-                        <img src={HeadShot} alt="Donna Brar" className='h-80 rounded-3xl shadow-md'/>
+                        <img src={HeadShot} alt="Donna Brar" className='h-[400px] rounded-3xl shadow-md'/>
                         <img src={Heart} alt="Heart" className='h-32 transition-all ease-in-out duration-[6000ms] rotate-12 hover:-rotate-90 absolute -bottom-16 -right-16'/>
                     </div>
                 </div>
