@@ -1,10 +1,17 @@
+/*
+Assignment 1
+Donna Marie Brar
+301369346
+January 28, 2024
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
     body {
-        @apply bg-blue-50 text-base text-blue-950 font-custom;
+        @apply bg-gradient-to-b from-blue-50 to-blue-100 text-base text-blue-950 font-custom min-h-screen;
     }
     h1 {
         @apply text-9xl text-blue-600 font-bold tracking-wider mb-6 leading-none;
@@ -32,5 +39,8 @@
     }
     .btn-secondary {
       @apply py-4 px-8 bg-white text-blue-600 font-light rounded-full hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all ease-in-out duration-300 uppercase text-sm tracking-widest;
+    }
+    .card {
+        @apply rounded-3xl bg-white shadow-md px-6 py-10 h-full justify-start items-start;
     }
   }

@@ -1,3 +1,10 @@
+/*
+Assignment 1
+Donna Marie Brar
+301369346
+January 28, 2024
+*/
+
 import { Link } from 'react-router-dom';
 import CV from '../src/assets/DonnaBrar_CV.pdf';
 import HeadShot from '../src/assets/DBrar_Headshot.jpeg';
@@ -13,7 +20,7 @@ export default function  About()
                         about me.
                     </h1>
                     <h2>
-                        My name is Donna and I'm a software developer nad UI/UX designer based in Toronto, Canada.
+                        My name is Donna and I'm a software developer and UI/UX designer based in Toronto, Canada.
                     </h2>
                     <p>
                         I am currently enrolled in the Software Engineering Technology Advanced Diploma program at Centennial College and expect to graduate in April 2025. My experience as a software developer involved both front-end and back-end technologies.

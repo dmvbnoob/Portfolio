@@ -1,3 +1,10 @@
+/*
+Assignment 1
+Donna Marie Brar
+301369346
+January 28, 2024
+*/
+
 import Flower from '../src/assets/flower.svg';
 import Star from '../src/assets/star.svg';
 import { Link } from 'react-router-dom';

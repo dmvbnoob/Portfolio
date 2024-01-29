@@ -1,3 +1,10 @@
+/*
+Assignment 1
+Donna Marie Brar
+301369346
+January 28, 2024
+*/
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
