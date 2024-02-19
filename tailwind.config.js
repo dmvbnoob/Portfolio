@@ -17,6 +17,20 @@ export default {
       fontFamily: {
         'custom': ['itc-avant-garde-gothic-pro', 'sans-serif'], // Add this line
       },
+      keyframes: {
+        spinclock: {
+          '0%': { transform: 'rotate(0deg) rotate(12deg)' },
+          '100%': { transform: 'rotate(0deg) rotate(360deg)' },
+        },
+        spincounter: {
+          '0%': { transform: 'rotate(0deg) rotate(-12deg)' },
+          '100%': { transform: 'rotate(0deg) rotate(-360deg)' },
+        }
+      },
+      animation: {
+        'spin-slow-clock': 'spinclock 20s linear infinite',
+        'spin-slow-counter': 'spincounter 20s linear infinite'
+      }
     },
   },
   plugins: [],

@@ -43,7 +43,7 @@ export default function  About()
                     <div className='flex flex-col w-full lg:w-1/2 justify-center items-center h-full relative order-1 lg:order-2'>
                         <div className='relative'>
                             <img src={HeadShot} alt="Donna Brar" className='lg:h-[400px] rounded-3xl shadow-md aspect-square'/>
-                            <img src={Heart} alt="Heart" className='h-20 lg:h-32 transition-all ease-in-out duration-[6000ms] rotate-12 hover:-rotate-90 absolute -bottom-4 -right-4 lg:-bottom-16 lg:-right-16'/>
+                            <img src={Heart} alt="Heart" className='h-20 lg:h-32 animate-spin-slow-counter absolute -bottom-4 -right-4 lg:-bottom-16 lg:-right-16'/>
                         </div>
                     </div>
                 </div>
